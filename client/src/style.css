@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  margin: 0;  
+}
+
+.login-section{
+  display: flex;
+  justify-content: center;
+}
+.login-container{
+  margin-top: 40px;
+  border: .5px solid rgba(0, 0, 0, 0.616);
+  padding: 20px;
+}
+.login-form input{
+  margin-bottom: 20px;
+}
+.login-register{}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar-section{
+  display: block;
+  justify-content: space-between;
+  width:100%;
+}
+
+.navbar-img{
+  display: flex;
+  justify-content: right;
+}
+
+.navbar-row {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-figure{
+}
+
+.navbar-figure img {
+  width: 450px;
+  height: 77px;
+}
+.navbar-body{}
+
+.landing-page-section {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-page-container {
+  margin-top: 20px;
+}
+
+.landing-page-container h1 {
+  text-align: center;
+}
+
+.user-section{
+  display: flex;
+  justify-content: center;
+}
+
+.user-container{
+  display: flex;
+  width: 800px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 7px;
+  background-color: rgba(164, 158, 243, 0.521);
+  margin-top: 10px;
+}
+
+.user-img{
+  border-width: 0 .5px 0 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.589);
+  width: 250px;
+  
+}
+
+.user-figure{
+  padding: 20px 10px 0px 32px;
+  height: auto;
+  width: fit-content;
+  justify-content: center;  
+  margin: 0;
+}
+
+.user-img p {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding-left: 10px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.user-figure img {
+  width: 180px;
+  height: auto;
+  border-radius: 100px;
+}
+.user-information{
+  width: 550px;
+  height: auto;
+  padding: 10px 0 0 10px;
+}
+
+.cat-section{
+  display: flex;
+  justify-content: center;
+}
+.cat-container{
+  margin-top: 20px;
+  padding: 0 10px 0 10px;
+  width: 730px;
+  position: absolute;
+}
+
+.cat-text{
+  padding: 20px 0 20px 0s;
+  text-align: center;
+}
+
+
+.cat-form-section{
+  display: flex;
+  margin-right: 5px;
+}
+
+.cat-form input{
+  display: inline;
+}
+
+.cat-img{
+  display: flex;
+  justify-content: center;
+}
+
+.cat-img-figure{
+  margin: 0;
+  padding-top: 20px;
+}
+
+.cat-img-figure img {
+  margin: 0;
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+}
+.dog-section {
+  display: flex;
+  justify-content: center;
+}
+.dog-container{
+  margin-top: 20px;
+}
+
+.dog-container h1{
+  text-align: center;
+}
+.dog-text{
+  text-align: center;
+}
+
+.dog-img{
+  margin-top: 10px;
+}
+.dog-figure{
+  border-radius: px;
+}
+.dog-figure img{
+  border-radius: 10px;
+  width: 1240px;
+  height: 1000px;
+}
+
+.client-section {
+  display: flex;
+  justify-content: center;
+}
+.client-container {
+  margin-top: 40px;
+}
+
+.client-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.client-form {
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(164, 158, 243, 0.521);
+}
+
+.client-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.client-form label {
+  padding-right: 40px;
+}
+.client-form input{
+  width: 300px;
+  align-items: flex-end;
+}
+
+.client-form button {
+  display: block;
+  width: 100%;
+}
+.client-list {
+  border: 1px solid rgba(0, 0, 0, 0.521);
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.client-list h3 {
+  font-weight: bold;
+  font-size: 37px;
+}
